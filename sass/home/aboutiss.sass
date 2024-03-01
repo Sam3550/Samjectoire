@@ -1,0 +1,49 @@
+.aboutiss
+    background-color: $black
+    color: $white
+    // border: 1px solid yellow
+    
+    background-image: url('../images/iss2.webp')
+    background-position: center
+    &__overlay
+            height: auto
+            background-color: rgba(0, 0, 0, 0.5)
+    &__container 
+        align-items: center
+        display: flex
+        height: 40rem
+        &_info
+            width: 100%
+            &_title
+                margin-bottom: 3rem
+                font-size: 4rem
+                font-weight: bold
+            &_description
+                display: flex
+                flex-direction: row
+                justify-content: space-between
+                align-items: center
+                &_iss
+                    display: flex
+                    flex-direction: row
+                    justify-content: space-between
+                    width: 50%
+                    align-items: center
+                    &_number
+                        font-size: 4rem
+                        color: $blue
+                    &_text
+                        font-weight: bold
+
+                &_btn
+                    background-color: $white
+                    border-radius: 7px
+                    text-align: center
+                    width: 11%
+                    padding: 1rem
+
+                    &_vue
+                        
+                        text-decoration: none
+                        color: $black
+        

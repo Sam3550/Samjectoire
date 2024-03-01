@@ -1,0 +1,121 @@
+body {
+  font-family: sans-serif;
+  background-color: #0a0a0a;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin-inline: auto;
+  padding-inline: 1rem;
+}
+
+.header {
+  background-color: #0a0a0a;
+  margin-bottom: 6rem;
+}
+.header__nav {
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+}
+.header__nav_logo {
+  height: 4rem;
+}
+
+.presentationiss {
+  background-color: #0a0a0a;
+  color: #fff;
+}
+.presentationiss__container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5rem;
+}
+.presentationiss__container_left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.presentationiss__container_left_content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.presentationiss__container_left_content_title {
+  font-weight: bold;
+  font-size: 3rem;
+}
+.presentationiss__container_left_content_description {
+  font-size: 1.5rem;
+}
+.presentationiss__container_left_content_btn {
+  background-color: #fff;
+  border-radius: 7px;
+  text-align: center;
+  width: 25%;
+  padding: 1rem;
+}
+.presentationiss__container_left_content_btn_vue {
+  text-decoration: none;
+  color: #0a0a0a;
+}
+
+.aboutiss {
+  background-color: #0a0a0a;
+  color: #fff;
+  background-image: url("../images/iss2.webp");
+  background-position: center;
+}
+.aboutiss__overlay {
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.aboutiss__container {
+  align-items: center;
+  display: flex;
+  height: 40rem;
+}
+.aboutiss__container_info {
+  width: 100%;
+}
+.aboutiss__container_info_title {
+  margin-bottom: 3rem;
+  font-size: 4rem;
+  font-weight: bold;
+}
+.aboutiss__container_info_description {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.aboutiss__container_info_description_iss {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 50%;
+  align-items: center;
+}
+.aboutiss__container_info_description_iss_number {
+  font-size: 4rem;
+  color: #4789F7;
+}
+.aboutiss__container_info_description_iss_text {
+  font-weight: bold;
+}
+.aboutiss__container_info_description_btn {
+  background-color: #fff;
+  border-radius: 7px;
+  text-align: center;
+  width: 11%;
+  padding: 1rem;
+}
+.aboutiss__container_info_description_btn_vue {
+  text-decoration: none;
+  color: #0a0a0a;
+}
+
+/*# sourceMappingURL=styles.css.map */
