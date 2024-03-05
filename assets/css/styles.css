@@ -1,6 +1,6 @@
 body {
   font-family: sans-serif;
-  background-color: #0a0a0a;
+  background-color: #000000;
 }
 
 .container {
@@ -11,7 +11,7 @@ body {
 }
 
 .header {
-  background-color: #0a0a0a;
+  background-color: #000000;
   margin-bottom: 6rem;
 }
 .header__nav {
@@ -25,7 +25,7 @@ body {
 }
 
 .presentationiss {
-  background-color: #0a0a0a;
+  background-color: #000000;
   color: #fff;
 }
 .presentationiss__container {
@@ -60,11 +60,10 @@ body {
 }
 .presentationiss__container_left_content_btn_vue {
   text-decoration: none;
-  color: #0a0a0a;
+  color: #000000;
 }
 
 .aboutiss {
-  background-color: #0a0a0a;
   color: #fff;
   background-image: url("../images/iss2.webp");
   background-position: center;
@@ -115,7 +114,7 @@ body {
 }
 .aboutiss__container_info_description_btn_vue {
   text-decoration: none;
-  color: #0a0a0a;
+  color: #000000;
 }
 
 /*# sourceMappingURL=styles.css.map */
